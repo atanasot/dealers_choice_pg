@@ -74,7 +74,6 @@ const seedFunc = async () => {
     INSERT INTO movies_stars(movie_id, star_id) VALUES(5, 15);
     INSERT INTO movies_stars(movie_id, star_id) VALUES(5, 17);
     INSERT INTO movies_stars(movie_id, star_id) VALUES(5, 18);
-    
     `;
   await client.query(SQL);
 };
